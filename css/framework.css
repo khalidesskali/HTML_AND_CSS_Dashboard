@@ -16,6 +16,9 @@
 .d-block {
   display: block;
 }
+.d-grid {
+  display: grid;
+}
 /* End Box */
 /* Colors */
 .bg-white {
@@ -39,6 +42,9 @@
 }
 .m-20 {
   margin: 20px;
+}
+.m-15 {
+  margin: 15px;
 }
 /* Position */
 .relative {
@@ -73,4 +79,13 @@
 }
 .w-40 {
   width: 40px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
 }

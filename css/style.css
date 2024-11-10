@@ -266,6 +266,11 @@ a {
   color: white;
   margin-top: 10px;
 }
+@media (max-width: 768px) {
+  .events .box > img {
+    margin-inline: auto;
+  }
+}
 .events .draft > h3 {
   font-size: 25px;
   line-height: 1.8;
