@@ -8,6 +8,12 @@
 .js-center {
   justify-content: center;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.gap-20 {
+  gap: 20px;
+}
 .f-between {
   display: flex;
   align-items: center;
@@ -26,6 +32,21 @@
 }
 .c-black {
   color: black;
+}
+.c-gray {
+  color: #888;
+}
+.c-orange {
+  color: #f59e0b;
+}
+.c-blue {
+  color: #0075ff;
+}
+.c-red {
+  color: #f44336;
+}
+.c-green {
+  color: #22c55e;
 }
 /* Padding and Margin */
 .p-20 {
@@ -46,6 +67,9 @@
 .m-15 {
   margin: 15px;
 }
+.mb-10 {
+  margin-bottom: 10px;
+}
 /* Position */
 .relative {
   position: relative;
@@ -56,6 +80,12 @@
 }
 .fs-14 {
   font-size: 14px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-25 {
+  font-size: 25px;
 }
 .f-bold {
   font-weight: bold;

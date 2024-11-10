@@ -31,7 +31,7 @@ a {
 /* Start Components */
 .content .events .main-heading {
   line-height: 1.8;
-  font-size: 25px;
+  font-size: 21px;
 }
 .content .events .second-par {
   display: block;
@@ -417,4 +417,18 @@ a {
   background-color: var(--green-color);
 }
 /* End Activites */
+/* Start Tickets */
+.tickets .box {
+  border: 1px solid #ccc;
+  width: calc(50% - 10px);
+}
+@media (max-width: 768px) {
+  .tickets > div {
+    flex-direction: column;
+  }
+  .tickets .box {
+    width: 100%;
+  }
+}
+/* End Tickets */
 /* End Events  */
