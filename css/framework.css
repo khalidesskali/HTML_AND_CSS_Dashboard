@@ -30,6 +30,9 @@
 .bg-white {
   background-color: white;
 }
+.bg-eee {
+  background-color: #eee;
+}
 .c-black {
   color: black;
 }
@@ -78,6 +81,9 @@
 .txt-center {
   text-align: center;
 }
+.font-normal {
+  font-size: 1rem;
+}
 .fs-14 {
   font-size: 14px;
 }
@@ -113,9 +119,17 @@
 .cursor-pointer {
   cursor: pointer;
 }
-
+.btn-shape {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px;
+}
 @media (max-width: 768px) {
   .hide-mobile {
     display: none;
+  }
+  .txt-c-mobile {
+    text-align: center;
   }
 }
