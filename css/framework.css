@@ -70,8 +70,14 @@
 .m-15 {
   margin: 15px;
 }
+.mt-0 {
+  margin-top: 0;
+}
 .mb-10 {
   margin-bottom: 10px;
+}
+.mb-5 {
+  margin-bottom: 5px;
 }
 /* Position */
 .relative {
@@ -83,6 +89,9 @@
 }
 .font-normal {
   font-size: 1rem;
+}
+.fs-15 {
+  font-size: 15px;
 }
 .fs-14 {
   font-size: 14px;
