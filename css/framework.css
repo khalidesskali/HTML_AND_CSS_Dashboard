@@ -19,6 +19,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.js-between {
+  justify-content: space-between;
+}
 .d-block {
   display: block;
 }
@@ -60,6 +63,12 @@
 }
 .p-15 {
   padding: 15px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pb-15 {
+  padding-bottom: 15px;
 }
 .m-10 {
   margin: 10px;
