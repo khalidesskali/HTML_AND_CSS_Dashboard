@@ -91,6 +91,9 @@
 .mt-0 {
   margin-top: 0;
 }
+.mt-25 {
+  margin-top: 25px;
+}
 .mr-10 {
   margin-right: 10px;
 }
@@ -106,6 +109,9 @@
 /* Position */
 .relative {
   position: relative;
+}
+.absolute {
+  position: absolute;
 }
 /* Text */
 .txt-center {
@@ -128,6 +134,9 @@
 }
 .f-bold {
   font-weight: bold;
+}
+.f-medium {
+  font-weight: 500;
 }
 /* Border */
 .rad-6 {
