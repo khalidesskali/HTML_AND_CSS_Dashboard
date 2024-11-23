@@ -541,5 +541,22 @@ a {
     background-color: var(--blue-color);
   }
 }
+/* Remiders */
+.reminders ul li .key {
+  width: 15px;
+  height: 15px;
+}
+.reminders ul li > .blue {
+  border-left: 2px solid var(--blue-color);
+}
+.reminders ul li > .red {
+  border-left: 2px solid var(--red-color);
+}
+.reminders ul li > .orange {
+  border-left: 2px solid var(--orange-color);
+}
+.reminders ul li > .green {
+  border-left: 2px solid var(--green-color);
+}
 
 /* End Events  */
