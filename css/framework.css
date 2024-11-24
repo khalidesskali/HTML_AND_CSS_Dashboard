@@ -19,6 +19,11 @@
   align-items: center;
   justify-content: space-between;
 }
+.f-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .js-between {
   justify-content: space-between;
 }
@@ -62,6 +67,9 @@
 }
 .c-red {
   color: #f44336;
+}
+.c-white {
+  color: white;
 }
 .c-green {
   color: #22c55e;
@@ -181,6 +189,9 @@
 }
 .w-full {
   width: 100%;
+}
+.h-full {
+  height: 100%;
 }
 .o-hidden {
   overflow: hidden;
