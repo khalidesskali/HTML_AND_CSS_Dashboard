@@ -659,7 +659,7 @@ a {
 }
 /* Start Settings */
 .setting-page {
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 @media (max-width: 767px) {
   .setting-page {
@@ -673,6 +673,10 @@ a {
   border: 1px solid #ccc;
   resize: none;
   min-height: 150px;
+}
+.setting-page .email {
+  display: inline-flex;
+  width: calc(100% - 80px);
 }
 .toggle-checkbox {
   -webkit-appearance: none;

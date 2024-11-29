@@ -189,6 +189,12 @@
 .rad-full {
   border-radius: 50%;
 }
+.b-none {
+  border: none;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
 /* Width */
 .mw-100 {
   max-width: 100%;
