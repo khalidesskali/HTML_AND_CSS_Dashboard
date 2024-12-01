@@ -674,6 +674,12 @@ a {
   resize: none;
   min-height: 150px;
 }
+.setting-page .sec-box {
+  padding-bottom: 15px;
+}
+.setting-page .sec-box:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
 .setting-page .email {
   display: inline-flex;
   width: calc(100% - 80px);
@@ -716,5 +722,33 @@ a {
   content: "\f00c";
   left: 50px;
   color: var(--blue-color);
+}
+.setting-page :disabled {
+  cursor: no-drop;
+  background-color: #f0f4f8;
+  color: #bbb;
+}
+/* Social Media  */
+.setting-page .social-boxes i {
+  width: 40px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setting-page .social-boxes input {
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+  border-radius: 0 6px 6px 0;
+}
+.setting-page .social-boxes > div:focus-within i {
+  color: black;
 }
 /* End Settings */
