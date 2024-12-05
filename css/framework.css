@@ -84,6 +84,9 @@
 .p-15 {
   padding: 15px;
 }
+.p-20 {
+  padding: 20px;
+}
 .pt-10 {
   padding-top: 10px;
 }
@@ -119,6 +122,9 @@
 }
 .mt-5 {
   margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
 }
 .mt-15 {
   margin-top: 15px;
